@@ -2,14 +2,14 @@
 # Bibliotheken importieren
 import tkinter
 
-# TODO: view in Klasse View einen besseren Namen geben, bessere Verwendung für if name == main
+# TODO: bessere Verwendung für if name == main
 
 
 # die Klasse View, die ein neues Fenster erstellt
 class View:
     def __init__(self):
-        view = tkinter.Tk()
-        view.mainloop()
+        window = tkinter.Tk()
+        window.mainloop()
 
 
 # durch das Ausführen der SwiftUI-Bibliothek wird (erstmal) die Version ausgegeben
