@@ -1,17 +1,17 @@
-# sollte wie SwiftUI funktionieren
-# Bibliotheken importieren
+# should work as SwiftUI
+# import libraries
 import tkinter
 
 # TODO: bessere Verwendung für if name == main
 
 
-# die Klasse View, die ein neues Fenster erstellt
+# class view, which creates a new window
 class View:
     def __init__(self):
         window = tkinter.Tk()
         window.mainloop()
 
 
-# durch das Ausführen der SwiftUI-Bibliothek wird (erstmal) die Version ausgegeben
+# through running die SwiftUI-Library File, you get (for now) the versions
 if __name__ == '__main__':
-    print("Version 1.0")
+    demoView = View()

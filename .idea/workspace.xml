@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e858c4c5-c9fa-44ab-8661-df0b95c6dc62" name="Changes" comment="Added in SwiftUI the View-Class and in main the initialisation of the window.&#10;&#10;IMPORTANT: FOR NOW ON EVERYTHING IN ENGLISCH FOR GITHUB USE-CASES!">
+    <list default="true" id="e858c4c5-c9fa-44ab-8661-df0b95c6dc62" name="Changes" comment="renamed attribute in View class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SwiftUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/SwiftUI.py" afterDir="false" />
     </list>
@@ -113,13 +113,22 @@
       <option name="project" value="LOCAL" />
       <updated>1709239560203</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="renamed attribute in View class">
+      <option name="closed" value="true" />
+      <created>1709827453993</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709827453993</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added main.py file" />
     <MESSAGE value="Added SwiftUI.py file" />
     <MESSAGE value="Added in SwiftUI the View-Class and in main the initialisation of the window.&#10;&#10;IMPORTANT: FOR NOW ON EVERYTHING IN ENGLISCH FOR GITHUB USE-CASES!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added in SwiftUI the View-Class and in main the initialisation of the window.&#10;&#10;IMPORTANT: FOR NOW ON EVERYTHING IN ENGLISCH FOR GITHUB USE-CASES!" />
+    <MESSAGE value="renamed attribute in View class" />
+    <option name="LAST_COMMIT_MESSAGE" value="renamed attribute in View class" />
   </component>
 </project>
