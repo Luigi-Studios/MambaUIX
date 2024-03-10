@@ -12,6 +12,6 @@ class View:
         window.mainloop()
 
 
-# through running die SwiftUI-Library File, you get (for now) the versions
+# through running the SwiftUI-Library File, you get the demo-View with tests so everything works as expected
 if __name__ == '__main__':
     demoView = View()
