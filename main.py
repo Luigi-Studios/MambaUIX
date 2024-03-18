@@ -1,4 +1,6 @@
-from SwiftUI import View
+from SwiftUI import *
 
 # neuer View
-new_view = View()
+settings = View()
+
+Button()

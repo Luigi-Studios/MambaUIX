@@ -2,14 +2,19 @@
 # import libraries
 import tkinter
 
-# TODO: bessere Verwendung für if name == main
-
 
 # class view, which creates a new window
 class View:
     def __init__(self):
-        window = tkinter.Tk()
-        window.mainloop()
+        self.window = tkinter.Tk()
+
+
+class Button(View):
+
+    def __init__(self):
+        super().__init__()
+        self.createButton = tkinter.Button(self.window, text="Test")
+        self.createButton.pack()
 
 
 # through running the SwiftUI-Library File, you get the demo-View with tests so everything works as expected

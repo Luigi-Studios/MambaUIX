@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e858c4c5-c9fa-44ab-8661-df0b95c6dc62" name="Changes" comment="translated the comments into englisch">
+    <list default="true" id="e858c4c5-c9fa-44ab-8661-df0b95c6dc62" name="Changes" comment="updated comment to its proper use">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SwiftUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/SwiftUI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +16,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stdlib/tkinter/__init__.pyi" root0="SKIP_INSPECTION" />
+    <setting file="file:///Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/tkinter/__init__.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -25,24 +30,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.SwiftUI.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.SwiftUI.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;Python&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Python"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="python3" />
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="SwiftUI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -129,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709984774517</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="updated comment to its proper use">
+      <option name="closed" value="true" />
+      <created>1710099764126</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710099764126</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,6 +178,7 @@
     <MESSAGE value="Added in SwiftUI the View-Class and in main the initialisation of the window.&#10;&#10;IMPORTANT: FOR NOW ON EVERYTHING IN ENGLISCH FOR GITHUB USE-CASES!" />
     <MESSAGE value="renamed attribute in View class" />
     <MESSAGE value="translated the comments into englisch" />
-    <option name="LAST_COMMIT_MESSAGE" value="translated the comments into englisch" />
+    <MESSAGE value="updated comment to its proper use" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated comment to its proper use" />
   </component>
 </project>
