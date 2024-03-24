@@ -7,14 +7,25 @@
 
 # import libraries
 
-
 import tkinter
 
 
 # class view, which creates a new window
 class View:
-    def __init__(self):
+
+    # takes the elements as a tuple, and create some default values, e.g. width, height
+    def __init__(self, *args, width=300, height=300):
+
+        # creates and sets window values (title, width, height)
         self.window = tkinter.Tk()
+        self.window.title("made with MambaUIX")
+        self.window.geometry(f"{width}x{height}")
+
+        # preparing the elements for the view
+        for arg in args:
+            if type(arg) is Button:
+                self.create_button = tkinter.Button(self.window, text=arg)
+                self.create_button.pack()
 
     # shows the window on the screen by calling window.mainloop()
 
@@ -30,14 +41,15 @@ class View:
 
 # class Button to achieve Button() in main.py file
 
-class Button(View):
+class Button:
+    def __init__(self, text):
+        self.text = text
 
-    def __init__(self):
-        super().__init__()
-        self.createButton = tkinter.Button(self.window, text="Test")
-        self.createButton.pack()
+    def __str__(self):
+        return self.text
 
 
 # through running the SwiftUI-Library File, you get the demo-View with tests so everything works as expected
 if __name__ == '__main__':
-    demoView = View()
+    demoView = View(Button("made with MambaUIX"))
+    demoView.start()
