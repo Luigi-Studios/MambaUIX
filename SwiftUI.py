@@ -1,5 +1,13 @@
+# Notes
+
+""" Important: in order to have multiple tkinter windows opened at the same time, you first need to create the windows
+ and afterward, run them."""
+
 # should work as SwiftUI
+
 # import libraries
+
+
 import tkinter
 
 
@@ -8,6 +16,8 @@ class View:
     def __init__(self):
         self.window = tkinter.Tk()
 
+
+# class Button to achieve Button() in main.py file
 
 class Button(View):
 
