@@ -13,7 +13,7 @@ import tkinter
 # class view, which creates a new window
 class View:
 
-    # takes the elements as a tuple, and create some default values, e.g. width, height
+    # takes the elements as a tuple and create some default values, e.g. width, height
     def __init__(self, *args, width=300, height=300):
 
         # creates and sets window values (title, width, height)
@@ -23,7 +23,11 @@ class View:
 
         # preparing the elements for the view
         for arg in args:
+
+            # if arg (Button) belongs to the class Button
             if type(arg) is Button:
+
+                # creates the button
                 self.create_button = tkinter.Button(self.window, text=arg)
                 self.create_button.pack()
 
