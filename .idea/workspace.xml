@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e858c4c5-c9fa-44ab-8661-df0b95c6dc62" name="Changes" comment="problems with the commits, try to fix it">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test.py" afterDir="false" />
-    </list>
+    <list default="true" id="e858c4c5-c9fa-44ab-8661-df0b95c6dc62" name="Changes" comment="- deleted unused lines&#10;- added more documentation&#10;- translated everything in Test.py to english&#10;- variable names changed to be more descriptive" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -236,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715674815798</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="- deleted unused lines&#10;- added more documentation&#10;- translated everything in Test.py to english&#10;- variable names changed to be more descriptive">
+      <option name="closed" value="true" />
+      <created>1715680888600</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1715680888600</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -260,7 +265,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="HEAD" />
+                        <option value="refactoring" />
                       </list>
                     </value>
                   </entry>
@@ -283,6 +288,7 @@
     <MESSAGE value="added the desc for core function of the View class, multiple widgets." />
     <MESSAGE value="added comments to explain the code further, removed the HStack function" />
     <MESSAGE value="problems with the commits, try to fix it" />
-    <option name="LAST_COMMIT_MESSAGE" value="problems with the commits, try to fix it" />
+    <MESSAGE value="- deleted unused lines&#10;- added more documentation&#10;- translated everything in Test.py to english&#10;- variable names changed to be more descriptive" />
+    <option name="LAST_COMMIT_MESSAGE" value="- deleted unused lines&#10;- added more documentation&#10;- translated everything in Test.py to english&#10;- variable names changed to be more descriptive" />
   </component>
 </project>
