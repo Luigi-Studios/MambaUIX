@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e858c4c5-c9fa-44ab-8661-df0b95c6dc62" name="Changes" comment="added the desc for core function of the View class, multiple widgets.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test.py" afterDir="false" />
-    </list>
+    <list default="true" id="e858c4c5-c9fa-44ab-8661-df0b95c6dc62" name="Changes" comment="added comments to explain the code further, removed the HStack function" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,8 +100,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main" />
       <item itemvalue="Python.SwiftUI" />
+      <item itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list>
@@ -208,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715614251888</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added comments to explain the code further, removed the HStack function">
+      <option name="closed" value="true" />
+      <created>1715614430509</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1715614430509</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
